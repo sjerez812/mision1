@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primario: #bf2003;
+  --color-secundario: #e67361;
+  --color-acento: #edcf8e;
+  --color-texto: #231c07;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Chewy;
+  color: var(--color-primario);
+  text-align: center;
+}
+
+p {
+  font-family: Raleway;
+}
+
+.botonPrimario {
+  background: var(--color-primario);
+  color: white;
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+.botonPrimario:hover {
+  background: var(--color-primario);
+  color: white;
+  opacity: 80%;
+  scale: 1.01;
+  transition: scale 0.3s ease-in;
+}
+
+.bg-body-tertiary {
+  background-color: var(--color-primario) !important;
+}
+
+.nav-item a {
+  font-family: Chewy;
+  color: white;
+  text-underline-offset: 4px;
+  font-size: 1.5rem;
+}
+
+.nav-item a:visited,
+.nav-item a:focus,
+.nav-item a:active,
+.nav-item a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: var(--color-texto) !important;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+#nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.bannercat {
+  min-height: 10rem;
+  background-image: url(https://accesoriosmore.com/wp-content/uploads/2024/10/Banner-tienda.png?id=4274);
+  background-size: cover;
+}
+
+#catdest p {
+  font-family: Raleway;
+  text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--color-acento);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.botblan {
+  background-color: rgba(255, 255, 255, 0);
+  filter: invert(100%);
+}
+
+.bannerirag {
+  min-height: 10rem;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerirag h3 {
+  font-family: Raleway;
+  color: white !important;
+}
+
+p {
+  font-size: 18px;
+  font-family: Raleway;
+}
+
+form label {
+  font-family: Raleway;
+  color: var(--color-primario);
+  font-weight: bold;
+}
+
+.info img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-inner {
+  max-height: 30rem;
+}
+
+.galeria .img {
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.galeria .img:hover {
+  padding: 0;
+  transform: scale(1.05);
+
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.list-group .list-group-item {
+  border: none;
+}
+
+.list-group-item h4 {
+  text-align: left;
+}
+
+.card {
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-width: 80%;
+}
+
+.card span {
+  font-family: Chewy;
+  color: #bf2003;
+}
+
+hr {
+  width: 10%;
+  height: 3px;
+  background-color: var(--color-secundario);
+  border: none;
+  text-align: center;
+  margin: auto;
+}
+
+.sepsec {
+  border-top: dotted;
+  width: 100%;
+  border-color: var(--color-texto);
+  margin: auto;
+  background: none;
+  height: 1px;
+}
+
+footer {
+  background-color: var(--color-primario);
+  font-family: Raleway;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#faq {
+  padding-bottom: 2rem;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+  font-family: Raleway;
+  text-align: center;
+  border-color: var(--color-primario);
+  margin-bottom: 2rem;
+}
+
+thead {
+  background-color: red;
+  color: white;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+th {
+  background-color: var(--color-primario);
+  color: white;
+  font-family: Chewy;
+  padding: 10px;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e6736137;
+}
+
+th,
+td {
+  border: 1px solid var(--color-primario);
+  padding: 10px;
+}
+
+.card-contacto {
+  width: 80%;
+  max-width: 600px;
+}
+
+#tipos,
+#faq {
+  background-color: #fcf7ec;
+}
+
+.faq1 {
+  background-color: #fcf7ec;
+}
+
+.uuu h2 {
+  padding-top: 40px;
+}
+
+#slidercat {
+  background-color: #fcf7ec;
+}
